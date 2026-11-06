@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="noindex" />
+    <title>[GAL] Les Gaulois a déménagé</title>
+    <link rel="canonical" href="https://les-gaulois.github.io/" />
+    <noscript><meta http-equiv="refresh" content="0; url=https://les-gaulois.github.io/" /></noscript>
+    <script>
+      // Garde la page demandée : /Gaulois-V2/classement/ devient /classement/. Le reste mène à l'accueil.
+      var found = location.pathname.match(/^\/gaulois-v2(\/.*)?$/i);
+      var path = found ? found[1] || "/" : "/";
+      location.replace("https://les-gaulois.github.io" + path + location.search + location.hash);
+    </script>
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100dvh;
+        margin: 0;
+        padding: 16px;
+        box-sizing: border-box;
+        background: #0a1230;
+        color: #fff;
+        font: 1.125rem/1.5 system-ui, sans-serif;
+        text-align: center;
+      }
+      a {
+        color: #9dbcff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 style="font-size: 1.5rem">Le site du clan [GAL] a déménagé</h1>
+      <p><a href="https://les-gaulois.github.io/">Aller sur le nouveau site</a></p>
+    </main>
+  </body>
+</html>
